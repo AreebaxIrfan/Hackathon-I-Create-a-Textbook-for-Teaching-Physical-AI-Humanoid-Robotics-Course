@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/AreebaxIrfan/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/AreebaxIrfan/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -87,9 +87,9 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/AreebaxIrfan/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course',
           label: 'GitHub',
           position: 'right',
         },
