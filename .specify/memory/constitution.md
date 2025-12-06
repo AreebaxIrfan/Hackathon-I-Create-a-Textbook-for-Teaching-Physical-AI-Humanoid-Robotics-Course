@@ -1,55 +1,66 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change:  --> 1.0.0
+<!-- List of modified principles:
+- PROJECT_NAME: GeminiBook
+- Core Purpose: Teach students to build, simulate, and deploy autonomous humanoid robots using ROS 2, NVIDIA Isaac, and Vision-Language-Action models.
+- Scope: 13-week capstone curriculum + full hardware lab guide + capstone project.
+- Audience: Advanced AI students, robotics engineers, university labs, hackathon teams.
+- Outcome: Complete open-source Docusaurus book + ready-to-teach curriculum + hardware BOMs
+- Added section: Project Overview
+- Added principles: Code Quality, Test-Driven Development, Modularity, Security by Design, Performance Optimization, Open Source Contribution
+- Added section: Additional Constraints
+- Added section: Development Workflow
+- Added governance rules
+- Updated CONSTITUTION_VERSION to 1.0.0
+- Updated RATIFICATION_DATE to 2025-12-06
+- Updated LAST_AMENDED_DATE to 2025-12-06
+
+Templates requiring updates:
+- .specify/templates/plan-template.md ⚠ pending
+- .specify/templates/spec-template.md ⚠ pending
+- .specify/templates/tasks-template.md ⚠ pending
+- .gemini/commands/*.toml ⚠ pending
+- README.md ⚠ pending
+
+Follow-up TODOs:
+- Review and refine principles with more specific project context.
+- Update dependent templates and documentation to reflect changes.
+-->
+# GeminiBook Constitution
+
+## Project Overview
+This project, GeminiBook, aims to teach students to build, simulate, and deploy autonomous humanoid robots using ROS 2, NVIDIA Isaac, and Vision-Language-Action models.
+The scope includes a 13-week capstone curriculum, a full hardware lab guide, and a capstone project.
+The target audience is Advanced AI students, robotics engineers, university labs, and hackathon teams.
+The desired outcome is a complete open-source Docusaurus book, a ready-to-teach curriculum, and comprehensive hardware Bills of Materials (BOMs).
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Code Quality
+All code MUST adhere to established style guides, pass linting checks, and be well-documented. Readability and maintainability are paramount.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Test-Driven Development
+New features and bug fixes MUST be accompanied by comprehensive tests written before implementation. The Red-Green-Refactor cycle is strictly enforced.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Modularity
+Components SHOULD be loosely coupled and highly cohesive. Promote reusability and clear separation of concerns.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Security by Design
+Security considerations MUST be integrated into every stage of the development lifecycle, from design to deployment. Adhere to OWASP Top 10 guidelines and secure coding practices.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Performance Optimization
+Performance-critical sections of code SHOULD be optimized and benchmarked. Avoid premature optimization, but always consider efficiency.
 
-### [PRINCIPLE_6_NAME]
+### VI. Open Source Contribution
+All project contributions MUST align with open-source best practices and licensing requirements. Ensure proper attribution and community engagement.
 
+## Additional Constraints
+Technology stack: ROS 2, NVIDIA Isaac, Python, Docusaurus. All external dependencies MUST be explicitly declared and managed.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Development Workflow
+Follow an agile development methodology with regular sprints, code reviews, and continuous integration/continuous deployment (CI/CD) practices. All changes MUST be reviewed and approved by at least one other team member.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+The constitution serves as the foundational document for the project. Amendments require a formal proposal, team discussion, and majority consensus. All project decisions and code contributions MUST align with the principles outlined herein.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
