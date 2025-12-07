@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import FloatingChatButton from '../FloatingChatButton';
 
 type FeatureItem = {
   title: string;
@@ -58,6 +59,7 @@ export default function HomepageFeatures(): ReactNode {
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <FloatingChatButton />
       </div>
     </section>
   );

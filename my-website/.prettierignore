@@ -1,0 +1,9 @@
+build/
+.docusaurus/
+node_modules/
+dist/
+public/
+.cache/
+temp/
+package-lock.json
+yarn.lock

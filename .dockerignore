@@ -1,0 +1,21 @@
+# General
+.git/
+.dockerignore
+*.log*
+.env*
+coverage/
+.DS_Store
+Thumbs.db
+
+# Node.js (if frontend build happens in same context, otherwise remove)
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/

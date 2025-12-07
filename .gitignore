@@ -20,6 +20,14 @@ build/
 public/
 temp/
 
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+
 # Editor/OS
 .vscode/
 .idea/

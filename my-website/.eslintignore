@@ -1,0 +1,10 @@
+build/
+.docusaurus/
+node_modules/
+dist/
+public/
+.cache/
+temp/
+src/typings/
+src/theme/
+src/plugins/
