@@ -120,7 +120,8 @@ const ChatWidget: React.FC = () => {
       const errorMessage: Message = {
         id: `error-${Date.now()}`,
         role: 'assistant',
-        content: `❌ Error: ${error instanceof Error ? error.message : 'Unknown error'}.`,
+        // content: `❌ Error: ${error instanceof Error ? error.message : 'Unknown error'}.`,
+        content: `Networking Problem, Please try again later.`,
         timestamp: new Date(),
       };
 
